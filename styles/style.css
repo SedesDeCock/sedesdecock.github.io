@@ -204,3 +204,26 @@ h2{
 #about-me-listing{
     width: 250px;
 }
+#about-me-picture{
+    position: absolute;
+    width: 304px;
+    height: 304px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 5px solid var(--soft-purple);
+    background-image: url("../images/picture.jpg");
+    background-position: 0px -38px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    margin-top: -76px;
+    margin-left: -152px;
+}
+#picture-container{
+    position: absolute;
+    width: calc(100vw - 960px);
+    height: 152px;
+    flex-shrink: 0;
+    margin-top: 400px;
+    margin-left: 480px;
+    background: var(--soft-purple);
+}
