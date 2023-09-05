@@ -1,9 +1,30 @@
+:root{
+    --off-white: #FAF5FF;
+    --soft-purple: #9A5BEB;
+    --deep-purple: #7910FF;
+    --off-black: #0F0221;
+}
+
 p{
     margin: 0;
+    font-family: Comic Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+li{
+    margin: 0;
+    font-family: Comic Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 h1{
     font-family: "blambot-fx-pro", sans-serif;
-    color: var(--off-white, #FAF5FF);
+    color: var(--off-white);
     font-size: 96px;
     font-style: italic;
     font-weight: 400;
@@ -12,7 +33,7 @@ h1{
 }
 h2{
     font-family: 'Comic Neue', cursive;
-    color: var(--off-white, #FAF5FF);
+    color: var(--off-white);
     font-size: 48px;
     font-style: italic;
     font-weight: 700;
@@ -23,12 +44,10 @@ h2{
     width: 192px;
     height: 100vh;
     flex-shrink: 0;
-    background: var(--soft-purple, #9A5BEB);
-    /* z-index: 2;
-    position: fixed; */
+    background: var(--soft-purple);
 }
 .nav-buttons p{
-    color: var(--off-white, #FAF5FF);
+    color: var(--off-white);
     text-align: center;
     font-family: 'Comic Neue', cursive;
     font-size: 13px;
@@ -50,7 +69,7 @@ h2{
 }
 #home-button :hover{
     cursor: pointer;
-    fill: var(--deep-purple, #7910FF);
+    fill: var(--deep-purple);
 }
 #home-button p{
     width: 52.978px;
@@ -66,7 +85,7 @@ h2{
 }
 #about-button :hover{
     cursor: pointer;
-    fill: var(--deep-purple, #7910FF);
+    fill: var(--deep-purple);
 }
 #about-button p{
     width: 63px;
@@ -82,7 +101,7 @@ h2{
 }
 #portfolio-button :hover{
     cursor: pointer;
-    fill: var(--deep-purple, #7910FF);
+    fill: var(--deep-purple);
 }
 #portfolio-button p{
     width: 67.099px;
@@ -98,7 +117,7 @@ h2{
 }
 #contact-button :hover{
     cursor: pointer;
-    fill: var(--deep-purple, #7910FF);
+    fill: var(--deep-purple);
 }
 #contact-button p{
     width: 58.009px;
@@ -114,7 +133,7 @@ h2{
 }
 #itchio-button :hover{
     cursor: pointer;
-    fill: var(--deep-purple, #7910FF);
+    fill: var(--deep-purple);
 }
 #linkedin-button{
     margin-left: 50px;
@@ -123,7 +142,7 @@ h2{
 }
 #linkedin-button :hover{
     cursor: pointer;
-    fill: var(--deep-purple, #7910FF);
+    fill: var(--deep-purple);
 }
 #nav-circle{
     position: absolute;
@@ -155,4 +174,33 @@ h2{
 #home-subtitle{
     margin-top: 48px;
     width: 687px;
+}
+
+#about-me{
+    width: calc(100vw - 480px);
+    position: absolute;
+    margin-top: 0;
+    margin-left: 192px;
+    padding-left: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#about-me h1{
+    margin-top: 69px;
+    color: var(--off-black);
+    width: 514px;
+}
+#about-me h2{
+    margin-top: 32px;
+    color: var(--off-black);
+}
+#about-me-text-container{
+    margin-top: 32px;
+    width: 774px;
+    height: 177px;
+    flex-shrink: 0;
+}
+#about-me-listing{
+    width: 250px;
 }
