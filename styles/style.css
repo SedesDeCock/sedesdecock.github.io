@@ -1,0 +1,158 @@
+p{
+    margin: 0;
+}
+h1{
+    font-family: "blambot-fx-pro", sans-serif;
+    color: var(--off-white, #FAF5FF);
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+h2{
+    font-family: 'Comic Neue', cursive;
+    color: var(--off-white, #FAF5FF);
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+.navbar{
+    width: 192px;
+    height: 100vh;
+    flex-shrink: 0;
+    background: var(--soft-purple, #9A5BEB);
+    /* z-index: 2;
+    position: fixed; */
+}
+.nav-buttons p{
+    color: var(--off-white, #FAF5FF);
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+}
+.nav-buttons{
+    width: 69px;
+    height: 69px;
+    flex-shrink: 0;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#home-button{
+    margin-left: 157px;
+    margin-top: 50px;
+    position: absolute;
+}
+#home-button :hover{
+    cursor: pointer;
+    fill: var(--deep-purple, #7910FF);
+}
+#home-button p{
+    width: 52.978px;
+    height: 15.265px;
+    flex-shrink: 0;
+    padding-left: 8px;
+    padding-top: 27px;
+}
+#about-button{
+    margin-left: 268px;
+    margin-top: 112px;
+    position: absolute;
+}
+#about-button :hover{
+    cursor: pointer;
+    fill: var(--deep-purple, #7910FF);
+}
+#about-button p{
+    width: 63px;
+    height: 17px;
+    flex-shrink: 0;
+    padding-left: 3px;
+    padding-top: 27px;
+}
+#portfolio-button{
+    margin-left: 268px;
+    margin-top: 243px;
+    position: absolute;
+}
+#portfolio-button :hover{
+    cursor: pointer;
+    fill: var(--deep-purple, #7910FF);
+}
+#portfolio-button p{
+    width: 67.099px;
+    height: 13.064px;
+    flex-shrink: 0;
+    padding-left: 1px;
+    padding-top: 28px;
+}
+#contact-button{
+    margin-left: 157px;
+    margin-top: 304px;
+    position: absolute;
+}
+#contact-button :hover{
+    cursor: pointer;
+    fill: var(--deep-purple, #7910FF);
+}
+#contact-button p{
+    width: 58.009px;
+    height: 13.434px;
+    flex-shrink: 0;
+    padding-left: 5px;
+    padding-top: 28px;
+}
+#itchio-button{
+    margin-left: 50px;
+    margin-top: 243px;
+    position: absolute;
+}
+#itchio-button :hover{
+    cursor: pointer;
+    fill: var(--deep-purple, #7910FF);
+}
+#linkedin-button{
+    margin-left: 50px;
+    margin-top: 112px;
+    position: absolute;
+}
+#linkedin-button :hover{
+    cursor: pointer;
+    fill: var(--deep-purple, #7910FF);
+}
+#nav-circle{
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 50px;
+}
+.home-container{
+    background-image: url("../images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title-banner{
+    width: calc(100vw - 192px);
+    height: 336px;
+    flex-shrink: 0;
+    background: rgba(15, 2, 33, 0.50);
+    position: absolute;
+    margin-top: 0;
+    margin-left: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home-title{
+    width: 514px;
+}
+#home-subtitle{
+    margin-top: 48px;
+    width: 687px;
+}
