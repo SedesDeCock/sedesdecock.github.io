@@ -342,17 +342,25 @@ h2{
 .nav-btn {
     background: transparent;
     border: none;
-    font-size: 24px;
     cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
+.nav-btn:hover{
+    border-radius: 100px;
+}
 #prev-btn {
     left: 10px;
 }
+#prev-btn:hover{
+    background: linear-gradient(90deg, rgba(121, 16, 255, 0.80) 0%, rgba(154, 91, 235, 0.29) 49.98%, rgba(154, 91, 235, 0.00) 100%);
+}
 #next-btn {
     right: 10px;
+}
+#next-btn:hover{
+    background: linear-gradient(270deg, rgba(121, 16, 255, 0.80) 0%, rgba(154, 91, 235, 0.29) 49.98%, rgba(154, 91, 235, 0.00) 100%);
 }
 .thumbnail-row {
     display: flex;

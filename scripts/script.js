@@ -47,8 +47,6 @@ linkedin.addEventListener('click', () => {
     window.open('https://www.linkedin.com/in/sedes-de-cock-90070228a/');
 });
 
-
-//switch case for currenPage
 switch(currentPage){
     case 'home':
         homeButton.querySelector('svg circle').style.fill = offWhite;
