@@ -48,6 +48,7 @@ h2{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 50;
 }
 .nav-buttons p{
     color: var(--off-white);
@@ -409,4 +410,51 @@ h2{
     background-image: url("../images/portfolio/SoulSplitter.png");
     background-size: cover;
     background-position: 0% 50%;
+}
+
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact h1 {
+    color: var(--off-black);
+    width: 514px;   
+    text-align: center;
+    display: block;
+    margin: 69px auto 90px;
+    padding-left: 200px;
+}
+#contact-image-block {
+    position: relative;
+    background-image: url("../images/contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 624px;
+    height: 352px;
+    text-align: center;
+    margin-left: 192px;
+    border-radius: 30px;
+}
+#purple-contact-banner{
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(154, 91, 235, 0.9);
+    width: 624px;
+    height: 64px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 192px;
+    margin-top: 255px;
+    z-index: 1;
+    text-align: center;
+}
+#purple-contact-banner a{
+    display: flex;
+    flex-direction: row;
+    margin: 18px 0 18px 0;
+    justify-content: center;
+    gap: 16px;
+    color: var(--off-white);
 }
