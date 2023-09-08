@@ -98,6 +98,30 @@ h2{
     padding-left: 3px;
     padding-top: 27px;
 }
+#cv-download{
+    width: 209px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--soft-purple, #9A5BEB);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0px 64px 0;
+}
+#cv-download a{
+    color: var(--off-white, #FAF5FF);
+    text-align: center;
+
+    font-family: Comic Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
 #portfolio-button{
     margin-left: 268px;
     margin-top: 243px;
