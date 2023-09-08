@@ -374,10 +374,26 @@ h2{
     cursor: pointer;
 }
 
+#dino-mines-video{
+    margin: 64px 32px 64px 224px;
+    max-width: 790px;
+    height: 100%;
+    border-radius: 30px;
+}
 
 
 #solar-exploration-item-thumbnail{
     background-image: url("../images/portfolio/SolarExploration.png");
+    background-size: cover;
+    background-position: 0% 40%;
+}
+#get-de-railed-item-thumbnail{
+    background-image: url("../images/portfolio/GetDeRailed.png");
+    background-size: cover;
+    background-position: 0% 40%;
+}
+#dino-mines-item-thumbnail{
+    background-image: url("../images/portfolio/DinoMines.png");
     background-size: cover;
     background-position: 0% 40%;
 }
