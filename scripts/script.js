@@ -13,16 +13,32 @@ const deepPurple = "#7910FF";
 
 
 homeButton.addEventListener('click', () => {
-    window.location.href = 'index.html';
+    if(subPage == false){
+        window.location.href = 'index.html';
+    }else if(subPage == true){
+        window.location.href = '../index.html';
+    }
 });
 aboutButton.addEventListener('click', () => {
-    window.location.href = 'about.html';
+    if(subPage == false){
+        window.location.href = 'about.html';
+    }else if(subPage == true){
+        window.location.href = '../about.html';
+    }
 });
 portfolioButton.addEventListener('click', () => {
-    window.location.href = 'portfolio.html';
+    if(subPage == false){
+        window.location.href = 'portfolio.html';
+    }else if(subPage == true){
+        window.location.href = '../portfolio.html';
+    }
 });
 contactButton.addEventListener('click', () => {
-    window.location.href = 'contact.html';
+    if(subPage == false){
+        window.location.href = 'contact.html';
+    }else if(subPage == true){
+        window.location.href = '../contact.html';
+    }
 });
 itchio.addEventListener('click', () => {
     window.open('https://sedesdecock.itch.io');

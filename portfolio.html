@@ -13,6 +13,7 @@
         <link rel="icon" href="images/SDC.svg">
         <script>
             var currentPage = "portfolio";
+            var subPage = false;
         </script>
     </head>
 
@@ -23,7 +24,7 @@
                 <h1>PORTFOLIO</h1>
 
                 <div id="thumbnail-container">
-                    <div class="portfolio-item" id="SolarExploration"></div>
+                    <div class="portfolio-item" id="SolarExploration" style="cursor: pointer;"></div>
                     <div class="portfolio-item" id="GetDeRailed"></div>
                     <div class="portfolio-item" id="DinoMines"></div>
                     <div class="portfolio-item" id="SoulSplitter"></div>
@@ -101,6 +102,12 @@
         </div>
     
         <script src="scripts/script.js"></script>
+        <script>            
+            const solarExploration = document.getElementById("SolarExploration");
+            solarExploration.addEventListener('click', () => {
+                window.location.href = 'pages/solarExploration.html';
+            });
+        </script>
     
     </body>
 </html>
