@@ -318,11 +318,58 @@ h2{
     height: 360px;
     margin-left: 224px;
     margin-right: 32px;
+    border-radius: 30px;
 }
+.sub-item-carousel{
+    max-width: 790px;
+    height: auto;
+    margin-left: 224px;
+    margin-right: 32px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 64px;
+}
+.main-image{
+    position: relative;
+    border-radius: 30px;
+}
+#main-img{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid var(--off-black);
+    border-radius: 30px;
+}
+.nav-btn {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#prev-btn {
+    left: 10px;
+}
+#next-btn {
+    right: 10px;
+}
+.thumbnail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+.thumbnail {
+    max-width: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
 #solar-exploration-item-thumbnail{
     background-image: url("../images/portfolio/SolarExploration.png");
     background-size: cover;
     background-position: 0% 40%;
-    border-radius: 30px;
-
 }
