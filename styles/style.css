@@ -374,7 +374,7 @@ h2{
     cursor: pointer;
 }
 
-#dino-mines-video{
+.portfolio-item-video{
     margin: 64px 32px 64px 224px;
     max-width: 790px;
     height: 100%;
@@ -396,4 +396,9 @@ h2{
     background-image: url("../images/portfolio/DinoMines.png");
     background-size: cover;
     background-position: 0% 40%;
+}
+#soul-splitter-item-thumbnail{
+    background-image: url("../images/portfolio/SoulSplitter.png");
+    background-size: cover;
+    background-position: 0% 50%;
 }
