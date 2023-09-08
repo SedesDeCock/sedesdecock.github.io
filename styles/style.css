@@ -227,3 +227,62 @@ h2{
     margin-left: 480px;
     background: var(--soft-purple);
 }
+
+#thumbnail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+#thumbnail-container .portfolio-item{
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+    background: var(--off-white);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#thumbnail-container #SolarExploration{
+    background-image: url("../images/portfolio/SolarExploration.png");
+    background-size: cover;
+    background-position: center;
+}
+#thumbnail-container #GetDeRailed{
+    background-image: url("../images/portfolio/GetDeRailed.png");
+    background-size: cover;
+    background-position: center;
+}
+#thumbnail-container #DinoMines{
+    background-image: url("../images/portfolio/DinoMines.png");
+    background-size: cover;
+    background-position: center;
+}
+#thumbnail-container #SoulSplitter{
+    background-image: url("../images/portfolio/SoulSplitter.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio{
+    width: calc(100vw - 192px);
+    position: absolute;
+    margin-top: 0;
+    margin-left: 192px;
+}
+#portfolio h1{
+    margin-top: 69px;
+    color: var(--off-black);
+    width: 514px;   
+    text-align: center;
+    display: block;
+    margin: auto;
+}
