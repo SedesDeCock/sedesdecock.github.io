@@ -42,9 +42,12 @@ h2{
 }
 .navbar{
     width: 192px;
-    height: 100vh;
+    height: 100%;
     flex-shrink: 0;
     background: var(--soft-purple);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .nav-buttons p{
     color: var(--off-white);
@@ -154,6 +157,9 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 .title-banner{
     width: calc(100vw - 192px);
@@ -279,10 +285,44 @@ h2{
     margin-left: 192px;
 }
 #portfolio h1{
-    margin-top: 69px;
     color: var(--off-black);
     width: 514px;   
     text-align: center;
     display: block;
-    margin: auto;
+    margin: 69px auto 90px;
+    padding-left: 100px;
+}
+#portfolio-item{
+    width: calc(100vw - 192px);
+    position: absolute;
+    margin-top: 0;
+    margin-left: 192px;
+}
+#portfolio-item p{
+    margin-top: 64px;
+    margin-left: 224px;
+    max-width: 790px;
+    margin-right: 32px;
+}
+#portfolio-item h1{
+    margin-top: 69px;
+    color: var(--off-black);
+    max-width: 665px;   
+    display: block;
+    margin-left: 224px;
+    margin-bottom: 16px;
+    margin-right: 32px;
+}
+.sub-item-thumbnail{
+    max-width: 790px;
+    height: 360px;
+    margin-left: 224px;
+    margin-right: 32px;
+}
+#solar-exploration-item-thumbnail{
+    background-image: url("../images/portfolio/SolarExploration.png");
+    background-size: cover;
+    background-position: 0% 40%;
+    border-radius: 30px;
+
 }
