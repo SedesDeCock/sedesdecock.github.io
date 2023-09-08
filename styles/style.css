@@ -292,6 +292,14 @@ h2{
     margin: 69px auto 90px;
     padding-left: 100px;
 }
+#portfolio a{
+    color: var(--soft-purple);
+    width: 200px;   
+    text-align: center;
+    display: block;
+    margin: 69px auto 90px;
+    padding-left: 100px;
+}
 #portfolio-item{
     width: calc(100vw - 192px);
     position: absolute;
