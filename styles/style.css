@@ -645,4 +645,30 @@ h2{
         height: 240px;
         width: 240px;
     }
+
+    #portfolio-item{
+        margin: 0;
+        width: auto;
+        position: relative;
+    }
+    #portfolio-item p{
+        margin: 32px 16px 0 16px;
+    }
+    #portfolio-item h1{
+        padding: 0;
+        display: block;
+        margin: 69px 0px 64px 16px;
+        width: auto;
+    }
+    .sub-item-thumbnail{
+        margin: 0px 16px 0px 16px;
+    }
+    .sub-item-carousel{
+        margin: 64px 16px 0px 16px;
+    }
+    .portfolio-item-video{
+        margin: 64px 16px 0px 16px;
+        max-width: 100%;
+
+    }
   }
