@@ -6,6 +6,8 @@ const aboutButton = document.getElementById('about-button');
 const portfolioButton = document.getElementById('portfolio-button');
 const contactButton = document.getElementById('contact-button');
 
+const mobileDiv = document.getElementById('mobile');
+
 const offWhite = "#FAF5FF";
 const offBlack = "#0F0221";
 const softPurple = "#9A5BEB";
@@ -51,6 +53,8 @@ switch(currentPage){
     case 'home':
         homeButton.querySelector('svg circle').style.fill = offWhite;
         homeButton.querySelector('p').style.color = softPurple;
+        mobileDiv.style.backgroundColor = 'transparent';
+
     break;
 
     case 'about':

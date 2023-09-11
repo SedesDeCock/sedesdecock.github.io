@@ -208,7 +208,7 @@ h2{
 }
 
 #about-me{
-    width: calc(100vw - 480px);
+    width: calc(100vw - 495px);
     position: absolute;
     margin-top: 0;
     margin-left: 192px;
@@ -251,7 +251,7 @@ h2{
 }
 #picture-container{
     position: absolute;
-    width: calc(100vw - 960px);
+    width: calc(100vw - 975px);
     height: 152px;
     flex-shrink: 0;
     margin-top: 400px;
@@ -498,7 +498,8 @@ h2{
       position: fixed;
       z-index: 2;
       width: 100vw;
-      height: 100vh;
+      height: 65px;
+      background-color: var(--off-white);
     }
     .navbar {
       display: none;
@@ -542,11 +543,9 @@ h2{
     }
   
     nav input[type="checkbox"]:checked ~ #menu {
-      transform: translate(0);
+        height: 500px;
+        transform: translate(0);
     }
-    nav input[type="checkbox"]:checked ~ #cv-download {
-        z-index: 0;
-      }
   
     #menu a {
       font-size: 1.2em;
@@ -616,8 +615,5 @@ h2{
     #about-me-picture{
         margin: 0;
         position: relative;
-    }
-    #cv-download{
-        z-index: 50;
     }
   }
