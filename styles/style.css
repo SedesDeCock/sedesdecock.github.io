@@ -692,4 +692,13 @@ h2{
         max-width: 100%;
         margin: 0px 16px 0px 16px;
     }
+    #dino-mines-item-thumbnail{
+        background-position: 50% 0%;
+    }
+    #get-de-railed-item-thumbnail{
+        background-position: 50% 0%;
+    }
+    #solar-exploration-item-thumbnail{
+        background-position: 50% 0%;
+    }
   }
