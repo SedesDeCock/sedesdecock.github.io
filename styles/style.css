@@ -4,6 +4,9 @@
     --deep-purple: #7910FF;
     --off-black: #0F0221;
 }
+body{
+    overflow-x: hidden;
+}
 
 p{
     margin: 0;
