@@ -495,11 +495,12 @@ h2{
     }
   
     #mobile {
-      position: fixed;
-      z-index: 2;
-      width: 100vw;
-      height: 65px;
-      background-color: var(--off-white);
+        top: 0;
+        position: fixed;
+        z-index: 2;
+        width: 100vw;
+        height: 65px;
+        background-color: var(--off-white);
     }
     .navbar {
       display: none;
@@ -615,5 +616,33 @@ h2{
     #about-me-picture{
         margin: 0;
         position: relative;
+    }
+
+    #portfolio{
+        margin: 0;
+        width: auto;
+        position: relative;
+    }
+    #portfolio h1{
+        padding: 0;
+        text-align: center;
+        display: block;
+        margin: 69px auto 90px;
+        width: auto;
+    }
+    #portfolio a{
+        padding: 0;
+    }
+    #thumbnail-container{
+        margin: 0 16px 0 16px;
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+        flex-shrink: 2;
+        padding: 0;
+    }
+    #thumbnail-container .portfolio-item{
+        height: 240px;
+        width: 240px;
     }
   }
