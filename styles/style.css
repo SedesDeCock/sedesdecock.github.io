@@ -544,6 +544,9 @@ h2{
     nav input[type="checkbox"]:checked ~ #menu {
       transform: translate(0);
     }
+    nav input[type="checkbox"]:checked ~ #cv-download {
+        z-index: 0;
+      }
   
     #menu a {
       font-size: 1.2em;
@@ -555,7 +558,7 @@ h2{
       padding: 1.2em 0.5em;
       display: block;
       text-align: center;
-      transition: color 0.5s; /* Apply transition directly to #menu a */
+      transition: color 0.5s;
     }
   
     #menu a:hover {
@@ -573,15 +576,19 @@ h2{
     h2{
         font-size: 16px;
     }
+    p{
+        font-size: 16px;
+    }
+    li{
+        font-size: 16px;
+    }
     #home-title{
         width: 100%;
-        /* margin: 0; */
         padding: 0;
         text-align: center;
     }
     #home-subtitle{
         width: 100%;
-        /* margin: 0; */
         padding: 0;
         text-align: center;
     }
@@ -589,6 +596,28 @@ h2{
         margin: 0;
         width: auto;
         position: relative;
-        padding-left: 0;
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+    }
+    #about-me-text-container{
+        width: 100%;
+        height: auto;
+        margin-top: 32px;
+        padding: 0;
+    }
+    #picture-container{
+        position: relative;
+        width: 157px;
+        height: auto;
+        margin-top: 32px;
+        margin-left: 0;
+        padding: 0;
+    }
+    #about-me-picture{
+        margin: 0;
+        position: relative;
+    }
+    #cv-download{
+        z-index: 50;
     }
   }
